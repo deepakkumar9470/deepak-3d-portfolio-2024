@@ -50,10 +50,14 @@ const About = () => {
       variants={fadeIn("","", 0.1,1)}
       className='mt-6 text-justify'
     >
-      My Name is DEEPAK KUMAR CHOUHAN. I am from Dhanbad, Jharkhand.I have done B.Tech (CSE) 
-      2019 form University College of Engineering & Technology,Vinoba Bhave University,
-      Hazaribagh.I am Full Stack Developer with Nextjs,Ts experience.I possess Web Development,
-       ReactJS ,NextJS, MERN Stack ,Python & Django and AWS.
+     Full Stack Developer with over 1 year of experience specializing in building 
+     high-performing, testable client-side applications using 
+     JavaScript (ES6),TypeScript, React.js, Next.js,Node.js. 
+     Proficient in modern testing frameworks
+     (e.g., Jest, Cypress, Mocha, Chai), REST and GraphQL APIs. 
+     Experienced in code reviews, documentation, Agile methodologies,
+      and delivering cross-browser compliant HTML and responsive 
+      designs with Sass/CSS.
 
     </motion.p>
 

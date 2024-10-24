@@ -12,17 +12,25 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    hacklab,
+    legitbyte,
+    blurg,
+    nextjs,
+    vuejs,
+    job_finder,
+    mern_ecommerce,
+    // mern_memories,
+    React_Collaboration,
+    mern_website,
+    react_ecommerce,
+    React_Movie_Database,
+    react_video_stream,
+    react_quiz,
+    movie_web,
+    nextjs_dashboard,
+    nextjs_blog,
+    nextjs_recipe,
+    react_weather
   } from "../assets";
   
   export const navLinks = [
@@ -35,7 +43,7 @@ import {
       title: "Work",
     },
     {
-      id: "work",
+      id: "project",
       title: "Projects",
     },
     {
@@ -50,15 +58,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "ReactJS Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Full Stack Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Developer",
       icon: creator,
     },
   ];
@@ -85,6 +93,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -101,110 +113,91 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "Vue JS",
+      icon: vuejs,
     },
   ];
   
   const experiences = [
+  
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Develoepr(Front End)",
+      company_name: "Hacklab Solutions Private Limited",
+      icon: hacklab,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Mar 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with UX/UI designers to implement engaging and intuitive user interfaces.",
+        "Developed and maintained responsive web applications using React.js and TypeScript, ensuring cross-browser compatibility.",
+        "Conducted code reviews, providing constructive feedback to enhance team performance and ensure clean code practices.",
+        "Optimized applications for speed and scalability through performance enhancements and attention to detail.",
+        "Troubleshot and debugged applications to improve reliability and user experience.",
+        "Participated in agile development processes, including sprint planning and daily stand-ups."
       ],
     },
+    
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full Stack Developer",
+      company_name: "LegitBytes,Cyberio Systems, Mohali (WFH)",
+      icon: legitbyte,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Feb 2023 – July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed CHAT GPT 4.0 from scratch(NextJS,Typescript,Tailwindcss).",
+ "Collaborated with stakeholders to manage development timelines and deliver successful projects.",
+ "Improved application reliability through rigorous testing and debugging processes."
+      ],
+    },
+    {
+      title: "Web Developer Intern",
+      company_name: "Blurgs Innovation Ltd, Bengaluru (WFH)",
+      icon: blurg,
+      iconBg: "#383E56",
+      date: "Jan 2022 – Apr 2022",
+      points: [
+        "Adding new functionality to current deployed project like Drag & Drop multiple files upload.",
+        "Integrate payment portal using Razorpay,Stripe.",
+        "Create documentation related to Angular & Django",
+        "Collaborating to other members ensure good quality work."
       ],
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+
   const projects = [
     {
-      name: "Car Rent",
+      name: "MERN Ecommerce App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "MERN Ecommerce using React,Node,Express,Mongodb,Stripe Payment.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mern_ecommerce,
+      source_code_link: "https://mern-ecomm-app.netlify.app/",
+    },
+    {
+      name: "ReactJS Job Finder",
+      description:
+        "Reactjs job finder web application using reactjs,tailwindcss.",
       tags: [
         {
           name: "react",
@@ -219,51 +212,237 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: job_finder,
+      source_code_link: "https://mern-job-finder.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "React Collaboration App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Real Time Collaboration app using React,Node,Socket-Io.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "socket.io",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: React_Collaboration,
+      source_code_link: "https://realtime-code-collaboration-app.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "MERN Website App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "MERN Website app using React,Node,Express,Mongodb.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mern_website,
+      source_code_link: "https://mern-website-app.herokuapp.com/",
+    },
+
+
+    {
+      name: "ReactJS Ecommerce",
+      description:
+        "React Ecommerce App using React,Hooks,Fake product list api, okta authentication..",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "hooks",
+          color: "green-text-gradient",
+        },
+        {
+          name: "fakeproductapi",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: react_ecommerce,
+      source_code_link: "https://react-ecommerce-web-app-2023.netlify.app/",
+    },
+    {
+      name: "React Movie Search App",
+      description:
+        "React Movie Search App using React,Tmdb api..",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tmdb api",
+          color: "green-text-gradient",
+        },
+      ],
+      image: React_Movie_Database,
+      source_code_link: "https://react-movie-list.netlify.app/",
+    },
+    {
+      name: "React Video Stream App",
+      description:
+        "React Video Stream App using React,WebRTC..",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "webrtc",
+          color: "green-text-gradient",
+        },
+      ],
+      image: react_video_stream,
+      source_code_link: "https://react-movie-list.netlify.app/",
+    },
+    {
+      name: "React Quiz App",
+      description:
+        "React Quiz App using React,Hooks.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "hooks",
+          color: "green-text-gradient",
+        },
+      ],
+      image: react_quiz,
+      source_code_link: "https://react-quiz-game-app.netlify.app/",
+    },
+
+    {
+      name: "React Weather App",
+      description:
+        "React Weather App using React,Hooks,Weather(OpenApi)..",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "openApi",
+          color: "green-text-gradient",
+        },
+      ],
+      image: react_weather,
+      source_code_link: "https://weather-app-live.netlify.app/",
+    },
+  
+
+    {
+      name: "NextJS Blog App",
+      description:
+        "NextJS Blog App using NextJS,Tailwindcss,Mongodb,Prisma..",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name :"prisma",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: nextjs_blog,
+      source_code_link: "https://github.com/deepakkumar9470/next-blog-app-2023/",
+    },
+
+    {
+      name: "Nextjs Movie Streaming App",
+      description:
+        "Nextjs Movie Streaming App using Nextjs,Tailwindcss,movieapi...",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name :"movieapi",
           color: "pink-text-gradient",
-        },
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: movie_web,
+      source_code_link: "https://nextjs-movie-pi.vercel.app/",
     },
+
+    {
+      name: "Nextjs Dashboard App",
+      description:
+        "Nextjs Dashboard App using Nextjs,Tailwindcss,fake user json data.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name :"fakeuser",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: nextjs_dashboard,
+      source_code_link: "https://next-dashboard-app.netlify.app/",
+    },
+
+    // {
+    //   name: "Nextjs Recipe Search App",
+    //   description:
+    //     "Nextjs Recipe Search App using Nextjs,Tailwindcss,edaman recpie api.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwindcss",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name :"edaman api",
+    //       color: "pink-text-gradient",
+    //     }
+    //   ],
+    //   image: nextjs_recipe,
+    //   source_code_link: "https://nextjs-food-search.vercel.app/",
+    // }
+
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

@@ -1,16 +1,15 @@
-import logo from "./logo.svg";
+
+import deepak_logo from "./deepak_logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import view from "./view.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -19,30 +18,40 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
+import vuejs from "./tech/vuejs.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import hacklab from "./company/hacklab.png";
+import legitbyte from "./company/legitbytes.png";
+import blurg from "./company/blurgs.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import job_finder from "./projects/job_finder.png";
+import mern_ecommerce from "./projects/mern_ecommerce.png";
+// import mern_memories from "./projects/mern_memories.png";
+import React_Collaboration from "./projects/React_Collaboration.png";
+import mern_website from "./projects/mern_website.png";
+import react_ecommerce from "./projects/ecommerce.png";
+import React_Movie_Database from "./projects/React_Movie_db.png";
+import react_video_stream from "./projects/react_video_stream.png";
+import react_quiz from "./projects/react_quiz.png";
+import movie_web from "./projects/movie-web.png";
+import nextjs_dashboard from "./projects/dashboard.png";
+import nextjs_blog from "./projects/nextjs_blog.png";
+import nextjs_recipe from "./projects/nextjs_recipe.png";
+import react_weather from "./projects/react_weather.png";
 
 export {
-  logo,
+  deepak_logo,
+  vuejs,
   backend,
   creator,
   mobile,
   web,
   github,
+  view,
   menu,
   close,
   css,
-  docker,
-  figma,
-  git,
   html,
   javascript,
   mongodb,
@@ -51,12 +60,22 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  nextjs,
+  hacklab,
+  legitbyte,
+  blurg,
+  job_finder,
+  mern_ecommerce,
+  // mern_memories,
+  React_Collaboration,
+  mern_website,
+  react_ecommerce,
+  React_Movie_Database,
+  react_video_stream,
+  react_quiz,
+  movie_web,
+  nextjs_dashboard,
+  nextjs_blog,
+  nextjs_recipe,
+  react_weather
 };
