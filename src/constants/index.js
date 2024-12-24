@@ -10,6 +10,7 @@ import {
     reactjs,
     redux,
     tailwind,
+    shadcn,
     nodejs,
     mongodb,
     hacklab,
@@ -19,7 +20,7 @@ import {
     vuejs,
     job_finder,
     mern_ecommerce,
-    // mern_memories,
+    mern_memories,
     React_Collaboration,
     mern_website,
     react_ecommerce,
@@ -103,6 +104,10 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Shadcn UI",
+      icon: shadcn,
     },
     {
       name: "Node JS",
@@ -193,6 +198,35 @@ import {
       ],
       image: mern_ecommerce,
       source_code_link: "https://mern-ecomm-app.netlify.app/",
+    },
+    {
+      name: "MERN Memories App",
+      description:
+        "MERN Ecommerce with Add,Update,Delete,Like the post,unlike the post,upload post image.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mern_memories,
+      source_code_link: "https://mern-memorie-app.netlify.app/",
     },
     {
       name: "ReactJS Job Finder",

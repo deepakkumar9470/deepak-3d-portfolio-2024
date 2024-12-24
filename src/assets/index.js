@@ -18,6 +18,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import shadcn from "./tech/shadcn.png";
 import nextjs from "./tech/nextjs.png";
 import vuejs from "./tech/vuejs.png";
 
@@ -27,7 +28,7 @@ import blurg from "./company/blurgs.png";
 
 import job_finder from "./projects/job_finder.png";
 import mern_ecommerce from "./projects/mern_ecommerce.png";
-// import mern_memories from "./projects/mern_memories.png";
+import mern_memories from "./projects/mern_memories.jpg";
 import React_Collaboration from "./projects/React_Collaboration.png";
 import mern_website from "./projects/mern_website.png";
 import react_ecommerce from "./projects/ecommerce.png";
@@ -60,13 +61,14 @@ export {
   redux,
   tailwind,
   typescript,
+  shadcn,
   nextjs,
   hacklab,
   legitbyte,
   blurg,
   job_finder,
   mern_ecommerce,
-  // mern_memories,
+  mern_memories,
   React_Collaboration,
   mern_website,
   react_ecommerce,
