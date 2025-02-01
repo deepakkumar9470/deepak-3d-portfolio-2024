@@ -10,7 +10,8 @@ import { fadeIn, textVariant } from "../../utils/motion";
 import { SectionWrapper } from "../../hoc";
 import { experiences } from "../../constants";
 
-const ExperienceCard = ({ experience }) => {
+const ExperienceCard = ({experience}) => {
+
   return (
     <VerticalTimelineElement
       contentStyle={{
