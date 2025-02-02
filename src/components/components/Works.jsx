@@ -1,14 +1,22 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { Tilt } from 'react-tilt'
-import {styles} from '../../styles';
-import {projects} from '../../constants';
-import {fadeIn,textVariant} from '../../utils/motion';
-import { view } from '../../assets';
-import { SectionWrapper } from '../../hoc';
-const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+import React from "react";
+import { motion } from "framer-motion";
+import { Tilt } from "react-tilt";
+import { styles } from "../../styles";
+import { projectsData } from "../../constants";
+import { fadeIn, textVariant } from "../../utils/motion";
+import { view } from "../../assets";
+import { SectionWrapper } from "../../hoc";
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  tags,
+  image,
+  source_code_link,
+}) => {
+
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <>
       <Tilt
         options={{
           max: 45,
@@ -28,7 +36,11 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
               onClick={() => window.open(source_code_link, "_blank")}
             >
-              <img src={view} alt="view" className="w-1/2 h-1/2 object-contain" />
+              <img
+                src={view}
+                alt="view"
+                className="w-1/2 h-1/2 object-contain"
+              />
             </div>
           </div>
         </div>
@@ -39,43 +51,53 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag, index) => (
-            <p key={index} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
-          ))}
+          {Array.isArray(tags) && tags.length > 0 ? (
+            tags.map((tag, index) => (
+              <p key={index} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))
+          ) : (
+            <p className="text-red-500">No tags available</p>
+          )}
         </div>
       </Tilt>
-    </motion.div>
+    </>
   );
 };
-
 const Works = () => {
 
   return (
     <>
-      <motion.div
-        variants={textVariant()}
+      <div
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         <p className={styles.sectionSubText}>My Work</p>
         <h2 className={`${styles.sectionHeadText} mt-4`}>Projects.</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("up", "spring", 0.1, 0.75)}
           className="mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcase my skills and experience through real-world examples.
-          Each project is briefly described with links to code repositories and live demos.
-          It reflects my ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Following projects showcase my skills and experience through
+          real-world examples. Each project is briefly described with links to
+          code repositories and live demos. It reflects my ability to solve
+          complex problems, work with different technologies, and manage
+          projects effectively.
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects?.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+      {projectsData.projects && projectsData.projects.length > 0 ? (
+       projectsData?.projects?.map((project, index) => (
+    <ProjectCard key={`project-${index}`} index={index} {...project} />
+  ))
+) : (
+  <p className="text-red-500">No projects available</p>
+)}
+
       </div>
     </>
   );
