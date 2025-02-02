@@ -28,6 +28,7 @@ import blurg from "./company/blurgs.png";
 
 import job_finder from "./projects/job_finder.png";
 import mern_ecommerce from "./projects/mern_ecommerce.png";
+import nextjs_career_intervieW_platform from "./projects/nextjs-career-ai-platform.png";
 import mern_memories from "./projects/mern_memories.jpg";
 import React_Collaboration from "./projects/React_Collaboration.png";
 import mern_website from "./projects/mern_website.png";
@@ -68,6 +69,7 @@ export {
   blurg,
   job_finder,
   mern_ecommerce,
+  nextjs_career_intervieW_platform,
   mern_memories,
   React_Collaboration,
   mern_website,

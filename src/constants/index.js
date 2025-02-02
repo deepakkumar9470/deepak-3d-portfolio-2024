@@ -20,6 +20,7 @@ import {
     vuejs,
     job_finder,
     mern_ecommerce,
+    nextjs_career_intervieW_platform,
     mern_memories,
     React_Collaboration,
     mern_website,
@@ -170,6 +171,35 @@ import {
   
 
   const projects = [
+    {
+      name: "NextJS 15 Career AI Platform",
+      description:
+        "NextJS 15 Career AI Platform using Nextjs,Shadcn ui,Postgress,Gemini AI,Neon db, Prisma.",
+      tags: [
+        {
+          name: "nextjs-15",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "gemini ai",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "shadcn ui",
+          color: "green-text-gradient",
+        },
+        {
+          name: "neon db",
+          color: "green-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nextjs_career_intervieW_platform,
+      source_code_link: "https://nextjs15-career-coach-platform.vercel.app",
+    },
     {
       name: "MERN Ecommerce App",
       description:
