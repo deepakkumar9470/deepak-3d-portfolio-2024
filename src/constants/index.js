@@ -131,7 +131,7 @@ const experiences = [
     company_name: "Hacklab Solutions Private Limited",
     icon: hacklab,
     iconBg: "#E6DEDD",
-    date: "Mar 2024 - Present",
+    date: "March 2024 - March 2025",
     points: [
       "Collaborated with UX/UI designers to implement engaging and intuitive user interfaces.",
       "Developed and maintained responsive web applications using React.js and TypeScript, ensuring cross-browser compatibility.",
@@ -147,7 +147,7 @@ const experiences = [
     company_name: "LegitBytes,Cyberio Systems, Mohali (WFH)",
     icon: legitbyte,
     iconBg: "#E6DEDD",
-    date: "Feb 2023 – July 2023",
+    date: "February 2023 – February 2024",
     points: [
       "Developed CHAT GPT 4.0 from scratch(NextJS,Typescript,Tailwindcss).",
       "Collaborated with stakeholders to manage development timelines and deliver successful projects.",
@@ -159,7 +159,7 @@ const experiences = [
     company_name: "Blurgs Innovation Ltd, Bengaluru (WFH)",
     icon: blurg,
     iconBg: "#383E56",
-    date: "Jan 2022 – Apr 2022",
+    date: "January 2022 – April 2022",
     points: [
       "Adding new functionality to current deployed project like Drag & Drop multiple files upload.",
       "Integrate payment portal using Razorpay,Stripe.",

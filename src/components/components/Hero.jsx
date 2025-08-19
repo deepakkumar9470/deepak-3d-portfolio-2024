@@ -19,7 +19,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I am a Full Stack Developer with experience in building web applications 
           using modern technologies. On the frontend, I work with React.js, 
-          Next.js, and TypeScript to create responsive and user-friendly interfaces. 
+          Next.js, and TypeScript , Node.js, Express.js.to create responsive and user-friendly interfaces. 
        
         </p>
       </div>

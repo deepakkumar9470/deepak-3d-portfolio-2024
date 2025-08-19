@@ -50,11 +50,11 @@ const About = () => {
       variants={fadeIn("","", 0.1,1)}
       className='mt-6 text-justify'
     >
-     Full Stack Developer with over 1 year of experience specializing in building 
+     Full Stack Developer | FrontEnd Developer with over 2+ year of experience specializing in building 
      high-performing, testable client-side applications using 
-     JavaScript (ES6),TypeScript, React.js, Next.js,Node.js. 
+     JavaScript (ES6+),TypeScript, React.js, Next.js,Node.js, Express.js. 
      Proficient in modern testing frameworks
-     (e.g., Jest, Cypress, Mocha, Chai), REST and GraphQL APIs. 
+     (e.g., Jest), REST and GraphQL APIs. 
      Experienced in code reviews, documentation, Agile methodologies,
       and delivering cross-browser compliant HTML and responsive 
       designs with Sass/CSS.
